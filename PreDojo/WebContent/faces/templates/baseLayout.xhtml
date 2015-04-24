@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.comg/jsf/html"
+	xmlns:p="http://java.sun.com/ui"
+	template="/faces/templates/base.xhtml">
+
+	<ui:define name="conteudo">
+		<div class="FundoConteudo">
+		    <div class="Title">
+				<div class="funcionalidadeAcao">
+					<ui:insert name="titulo">Nome da funcionalidade</ui:insert>
+				</div>
+			</div>
+			<div class="Conteudo">
+				<ui:insert name="conteudoPagina">Upload arquivo</ui:insert>
+		    </div>
+			<div class="Grid">
+				<ui:insert name="grid">Aqui vai centro da página</ui:insert>
+		    </div>
+		</div>
+	</ui:define>
+</ui:composition>

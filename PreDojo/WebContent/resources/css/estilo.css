@@ -1,0 +1,72 @@
+/* CSS BASE*/
+.all {
+	height: 100%;
+}
+
+.fundo {
+	-webkit-border-radius: 5px;
+	background: #0080ff;
+	width: 1000px;
+	float: inherit;
+	top: 0px;
+	min-height: 800px;
+	box-shadow: -14px -10px 15px -5px #AFAFAF;
+}
+
+.cabecalho {
+	clear: both;
+	width: 1000px;
+	height: 150px;
+	-webkit-border-radius: 5px;
+	font-family: cursive;
+	background: linear-gradient(to bottom, #ffff00, #0080ff);;
+	font-size: 70px;
+	text-decoration: none
+	-webkit-border-radius: 10px;
+}
+
+.Title {
+	width: auto;
+	height: 27px;
+	margin: 15px;
+	color: #000;
+	overflow-x: hidden;
+	font-family: cursive;
+	word-wrap: break-word;
+}
+
+.funcionalidadeAcao {
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000;
+	margin-top: 5px;
+}
+
+.conteudo {
+	clear: both;
+	border: none;
+	/*background-color: white;*/
+	display: block;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 16px;
+	padding: 15px 15px 0px 15px;
+	vertical-align: baseline;
+	width: 970px;
+}
+
+.rodape {
+	clear: both;
+	width: 985px;
+	height: 30px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	bottom: 0;
+	vertical-align: top;
+	position: absolute;
+}
